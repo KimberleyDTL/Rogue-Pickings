@@ -180,38 +180,57 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.9em;
-
+}
 /*----------------- Media Type------------------- */
 
 /* TABLET */
-@media (min-width:768px )
+@media (min-width:768px ){
+	.bottom-section {
+		display: flex;
+		justify-content: space-between;
+	}	
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		height: auto;
+		border-top: 1px solid #eee;
+	}
+	
+	.menu {
+		padding-right: 20px;
+	}
+
+	.section-one h3 {
+		padding: 10px 0;
+	}
+
+	.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	}
+	
+	.section-two h3,
+	.section-three h3 {
+		padding: 10px 10px;
+	}
+	
+	p {
+		padding: 0 10px;
+
+}
+
+footer {
+	margin-top: 30px;
+}
 
 /* MONITORS */
 @media (min-width:1200px) {
-.section-one,
-.section-two,
-.section-three {
-	width: 33%;
-	height: auto;
-	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-flow: row nowrap;
-}
-
-.section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
-}
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px 50px;
 }
 
 p {
