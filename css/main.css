@@ -223,18 +223,18 @@ input[type=text], select, textarea {
 
   .review-section {
 	margin: 0 auto;
-}
-  .review-image {
-	height: 50%;
-	}
-
-  .review-image img {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column wrap;
+}
+  .review-image {
+	height: auto;
+	}
+
+  .review-image img {
+	width: 100%;
+	/* border-bottom: 3px solid #77a466; */
 	}
 
 /*----------------- Media Type------------------- */
